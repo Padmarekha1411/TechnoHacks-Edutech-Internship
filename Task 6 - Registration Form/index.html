@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="content">
+            <div class="img">
+                <img src="images/9ec61925d90449b28d19.jpg">
+            </div>
+            <div class="info">
+                <h1>Registration Form</h1>
+
+                <div class="form-wrap first">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="form-wrap">
+                    <input type="text" placeholder="Username">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                    <div class="form-wrap">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                    <div class="form-wrap">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                    <div class="form-wrap">
+                    <input type="password" id="confirm_password" placeholder="Confirm Password" required>
+                    <i class="fa-solid fa-lock"></i><br>
+                </div>
+                <p id="message"></p>
+                    <button class="btn" onclick="validpassword()">Register</button>
+                </div>
+        </form>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

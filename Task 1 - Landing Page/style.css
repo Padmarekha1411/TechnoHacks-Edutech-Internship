@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+}
+
+header nav .first-nav{
+    background-color: #222222;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: white;
+}
+
+.first-nav .icons{
+    display: inline-flex;
+    column-gap: 25px;
+    align-items: center;
+    margin-left: 125px;
+}
+
+.first-nav .contact{
+    margin-right: 125px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+
+header nav .second-nav{
+    background-color: #0c5d69;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.second-nav .logo img{
+height: 60px;
+width: 170px;
+}
+
+.second-nav ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.second-nav ul li:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+section {
+    height: 70vh;
+    background-color: #f9f9ff;;
+}
+
+.section {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 100px;
+}
+
+.section .content{
+    padding: 20px;
+}
+
+.section .content>:first-child{
+    font-size: 20px;
+}
+
+.section .content>:nth-child(2){
+font-size: 30px;
+    font-weight: bolder;
+}
+
+.section .content>:nth-child(3){
+    font-size: 20px;
+    color: grey;
+}
+
+.section .content>:nth-child(4){
+    border: 2px solid black;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.form {
+    height: auto;
+    background-color: #f1f6f7;
+    border: solid #f1f6f7;
+    text-align: center;
+}
+
+.form h3{
+font-size: 25px;
+}
+
+.form input{
+    height: 25px;
+    width: 200px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+
+.form textarea{
+    height: 60px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+.form button{
+height: 25px;
+width: 140px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+
+footer{
+    height: 120px;
+    background-color: #0c5d69;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer>div h3{
+    font-size: 25px;
+}
+
+.footer>div>:nth-child(2){
+    height: 25px;
+    width: 200px;
+}
+
+.footer>div>:nth-child(3){
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer div .icons{
+    align-items: center;
+    display: flex;
+    column-gap: 20px;
+}
+
